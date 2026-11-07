@@ -1,0 +1,26 @@
+[
+  {
+    "path": "makehuman/data/targets/macrodetails/caucasian-male-old.target",
+    "file": "caucasian-male-old.target",
+    "sha256": "b0d2b1d58cba0358af59833740e70229265f7da1c20a11240f4123b7192cfd6d",
+    "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482"
+  },
+  {
+    "path": "makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-maxweight.target",
+    "file": "universal-male-young-averagemuscle-maxweight.target",
+    "sha256": "3e77ff5a07a9b870db5226507e1cf8a295f0e09c109fb72142770f5f50427b5e",
+    "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482"
+  },
+  {
+    "path": "makehuman/data/targets/macrodetails/universal-male-old-averagemuscle-maxweight.target",
+    "file": "universal-male-old-averagemuscle-maxweight.target",
+    "sha256": "ac49086cf6a33f38fa3e0208c3036d335a70529e22f15f0836244b7c7448c10b",
+    "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482"
+  },
+  {
+    "path": "makehuman/data/targets/macrodetails/universal-male-old-averagemuscle-averageweight.target",
+    "file": "universal-male-old-averagemuscle-averageweight.target",
+    "sha256": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249",
+    "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482"
+  }
+]
