@@ -1,0 +1,29 @@
+{
+  "asset": "trailer_singlewide_a",
+  "mesh_objects": 1170,
+  "base_triangles": 15224,
+  "meters": true,
+  "exterior_only": false,
+  "hallway_clear_width_m": 0.9,
+  "cutaway_collections": [
+    "CUTAWAY \u2022 Upper partitions \u2014 toggle to restore",
+    "CUTAWAY \u2022 Roof and front wall \u2014 toggle to restore"
+  ],
+  "glb_materials": "Base colors export; procedural wear is not baked.",
+  "limitations": [
+    "Static closed exterior door",
+    "No collision or LODs",
+    "No baked texture atlas",
+    "Art prototype; not engine optimized"
+  ],
+  "door_openings_m": {
+    "bathroom": 0.77,
+    "spare": 0.8,
+    "main": 0.8
+  },
+  "clear_framed_doorways_m": {
+    "bathroom": 0.705,
+    "spare": 0.735,
+    "main": 0.735
+  }
+}
