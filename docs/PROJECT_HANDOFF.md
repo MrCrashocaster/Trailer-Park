@@ -15,9 +15,10 @@ The user requested that completed changes be committed and pushed to GitHub by d
 - The user confirmed **iOS and Android apps built with Godot**. Game design and performance targets should reflect mobile devices. The user's MacBook Air is not a game performance constraint; minimum supported mobile devices remain undecided.
 - The earlier playable-supervisor idea is unsettled. The user asked what happens if nobody wants that job, then explored shared park management without Sims-style character control. Do not require one player to take the supervisor role.
 - Multiplayer is required. The user clarified a working target of **2–4 people in one game**. The latest proposed arrangement is shared park planning and management with independent cameras and optional responsibilities. Permissions and persistence remain proposals or undecided; the player target has not been benchmarked.
+- The user explicitly wants the **first prototype to be substantial and well developed**, rather than the previously proposed small three-lot demo. See [FIRST_PROTOTYPE.md](FIRST_PROTOTYPE.md) for a proposed expanded scope. Its exact feature list and lot count are recommendations, not confirmed requirements.
 - The visual tone is grounded, shabby, mundane and funny: faded siding, cramped yards, worn furniture and cars, scruffy residents, petty schemes, grudges and bad judgment. Earlier wholesome repair-business concepts and a cinematic concert concept were rejected as missing the tone.
 - The user explicitly requested removal of the existing character models and said they only like the trailer so far. No replacement character asset is approved or requested.
-- Concept art must be honest about what can actually be built. Reuse assets and keep the park small; do not treat image-generated foliage or UI as existing production work.
+- Concept art must be honest about what can actually be built. Reuse assets efficiently and validate the requested larger park on mobile hardware; do not treat image-generated foliage or UI as existing production work.
 
 ## Current working design / recommendations
 
@@ -30,7 +31,7 @@ These are proposals discussed with the user, not a final feature contract:
 - Visible construction plans, simple spending permissions and shared time controls could support cooperation. No mandatory player jobs have been agreed.
 - Roof hiding, interior furnishing and unrestricted building remain optional proposals; the trailer's existing interior can be retained without requiring those gameplay systems.
 - Godot is the confirmed engine for iOS and Android. Godot 4 was previously recommended; the exact version and renderer should be selected and tested against the mobile targets. The earlier laptop-based Compatibility renderer recommendation is superseded. No engine project has been created or benchmarked.
-- Prove a two-player shared park early, then test up to four players. Build ownership and shared state into the initial architecture.
+- Prove a two-player shared park early, then test up to four players. Build ownership and shared state into the initial architecture. Those internal checks do not replace the requested substantial first playable milestone.
 
 ## Existing trailer asset
 
@@ -63,16 +64,10 @@ See [concept-art/README.md](concept-art/README.md). The most recent sheet, [park
 
 The older notes in `docs/research/` are recalled, explicitly unverified background. External source access was blocked when those notes were written; no complete episode-by-episode research was completed. This limitation must not be silently promoted into verified research by a later chat.
 
-## Recommended next milestone
+## Requested first playable milestone
 
-When the user requests implementation, a practical starting slice for the cooperative builder direction is:
+The earlier small three-lot prototype recommendation is superseded. The user wants a substantial first prototype with a developed management experience. [FIRST_PROTOTYPE.md](FIRST_PROTOTYPE.md) proposes an expandable park with approximately 24–40 lots at developed capacity, connected construction/utilities/housing/finance systems, maintenance situations, progression, usable touch UI, cooperative multiplayer and saving/reconnecting. The detailed features and counts remain proposals; no tested lot capacity is established.
 
-1. Create a minimal Godot project targeting iOS and Android; confirm the Godot version, select a renderer for the intended mobile devices, and validate exports and performance on both platforms early. Minimum supported devices remain undecided.
-2. Establish a two-player shared session early; validate joining, synchronized placement and reconnecting, then test up to four players.
-3. Import the trailer GLB; verify scale, materials, object count and building visibility. Create a reusable trailer scene. Character imports are not part of this milestone.
-4. Build one flat gravel lane and three lots using the repeated trailer asset and a small number of props.
-5. Add independent touch-controlled overhead cameras, tap selection and placement previews.
-6. Add one shared building purchase and a consistent budget update; save the park and validate reconnecting.
-7. Then add household occupancy/rent, a basic utility or maintenance problem and a small budget UI. Expand the park after the shared management loop works.
+Implementation should still establish Godot/mobile exports, the reusable trailer scene and multiplayer shared state early, then integrate the management systems, content and presentation. Small networking or placement tests are internal checkpoints, not the requested first delivered prototype. Character imports are not required or approved.
 
-Do not claim those steps have been implemented. Multiplayer, deeper social simulation, arbitrary roads/terrain and unrestricted building require separate substantial work. No exact schedule or engine budget has been agreed; 2–4 players is the working target, not a tested capacity.
+Do not claim those steps have been implemented. Multiplayer, management simulation, roads/terrain and building tools require substantial work. No exact schedule, hosting budget, minimum device list or final content count has been agreed; 2–4 players is the working target, not a tested capacity.
