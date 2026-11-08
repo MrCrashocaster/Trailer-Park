@@ -1,0 +1,11 @@
+.godot/
+.DS_Store
+builds/*
+!builds/.gdignore
+.tools/
+*.tmp
+*.log
+*.keystore
+*.jks
+export_credentials.cfg
+test-results/
